@@ -11,3 +11,5 @@ app.include_router(items.router,
                    prefix="/items")
 app.include_router(pokemons.router,
                    prefix="/pokemons")
+
+#test

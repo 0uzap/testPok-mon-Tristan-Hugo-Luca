@@ -1,3 +1,9 @@
+# app/routers/items.py
+
+"""
+Endpoint pour les routes des items
+"""
+
 from typing import List
 from sqlalchemy.orm import Session
 from fastapi import APIRouter,  Depends

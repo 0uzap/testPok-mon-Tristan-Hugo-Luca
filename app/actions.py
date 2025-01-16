@@ -1,3 +1,11 @@
+# app/actions.py
+
+"""
+Ce module contient les actions liées à la gestion des utilisateurs,
+comme l'inscription, la connexion, etc.
+"""
+
+
 from sqlalchemy.orm import Session
 from . import models, schemas
 from .utils.pokeapi import get_pokemon_name
